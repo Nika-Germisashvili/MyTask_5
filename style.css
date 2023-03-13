@@ -1,0 +1,335 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1440px;
+  height: 900px;
+  background: rgba(80, 82, 226, 1);
+  margin: 200px auto;
+}
+
+.headpart {
+  Width: 1440px;
+  Height: 80px;
+  display: flex;
+}
+
+.header1 {
+  font-size: 27px;
+  color: rgba(255, 255, 255, 1);
+  margin: 27px 0px 0px 24px;
+}
+
+.menu {
+  width: 24px;
+  height: 24px;
+  margin: 28px 0px 0px 24px;
+}
+
+.box {
+  width: 6px;
+  height: 6px;
+  background: rgba(255, 255, 255, 1);
+  float: left;
+}
+
+.box2 {
+  width: 6px;
+  height: 6px;
+  background: rgba(255, 255, 255, 1);
+  float: left;
+  margin-left: 3px;
+}
+
+.box3 {
+  width: 6px;
+  height: 6px;
+  background: rgba(255, 255, 255, 1);
+  float: left;
+  margin-top: 3px;
+}
+
+.box4 {
+  width: 6px;
+  height: 6px;
+  background: rgba(255, 255, 255, 1);
+  float: left;
+  margin: 3px 0px 0px 3px;
+}
+
+.box5 {
+  width: 6px;
+  height: 6px;
+  background: rgba(255, 255, 255, 1);
+  float: left;
+  margin-top: 3px;
+}
+
+.box6 {
+  width: 6px;
+  height: 6px;
+  background: rgba(255, 255, 255, 1);
+  float: left;
+  margin: 3px 0px 0px 3px;
+}
+
+.img1 {
+  background-image: url(Image.png);
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  margin: 23px 0px 0px 1100px;
+}
+
+.username {
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  margin: 29px 0px 0px 10px;
+}
+
+.centerdiv {
+  text-align: center;
+}
+
+.header2 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 72px;
+  margin-top: 95px;
+  letter-spacing: -4px;
+}
+
+.text1 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 22px;
+  margin-top: -33px;
+  letter-spacing: -0.2px;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.container1 {
+  width: 360px;
+  height: 260px;
+  background: rgba(255, 255, 255, 1);
+  margin: 60px 0px 0px 150px;
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 12px;
+}
+
+.userpic1 {
+  width: 50px;
+  height: 50px;
+  margin: 30px 0px 0px 30px;
+  background-image: url(Image1.png);
+  border-radius: 25px;
+}
+
+.username1 {
+  font-size: 14px;
+  margin: 38px 0px 0px 12px;
+  letter-spacing: 2px;
+}
+
+.userid {
+  font-size: 14px;
+  margin: 59px 0px 0px -82px;
+  color: rgba(155, 155, 155, 1);
+}
+
+.usertext1 {
+  font-size: 18px;
+  margin: 0px 30px;
+}
+
+.M {
+  color: rgba(44, 153, 237, 1);
+}
+
+.date1 {
+  color: rgba(155, 155, 155, 1);
+  font-size: 16px;
+  margin: 20px 0px 0px 30px;
+}
+
+.container2 {
+  width: 360px;
+  height: 260px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -260px auto;
+  padding-bottom: 12px;
+}
+
+.userpic2 {
+  width: 50px;
+  height: 50px;
+  margin: 30px 0px 0px 30px;
+  background-image: url(Image2.png);
+  border-radius: 25px;
+}
+
+.username2 {
+  font-size: 14px;
+  margin: 38px 0px 0px 12px;
+  letter-spacing: 2px;
+}
+
+.userid2 {
+  font-size: 14px;
+  margin: 59px 0px 0px -89px;
+  color: rgba(155, 155, 155, 1);
+}
+
+.usertext2 {
+  font-size: 18px;
+  margin: 0px 30px;
+}
+
+.date2 {
+  color: rgba(155, 155, 155, 1);
+  font-size: 16px;
+  margin: 25px 0px 0px 30px;
+}
+
+.container3 {
+  width: 360px;
+  height: 260px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 150px 0px 0px;
+  float: right;
+  padding-bottom: 12px;
+}
+
+.userpic3 {
+  width: 50px;
+  height: 50px;
+  margin: 30px 0px 0px 30px;
+  background-image: url(Image3.png);
+  border-radius: 25px;
+}
+
+.username3 {
+  font-size: 14px;
+  margin: 38px 0px 0px 12px;
+  letter-spacing: 2px;
+}
+
+.userid3 {
+  font-size: 14px;
+  margin: 59px 0px 0px -129px;
+  color: rgba(155, 155, 155, 1);
+}
+
+.usertext3 {
+  font-size: 18px;
+  margin: 0px 30px;
+}
+
+.date3 {
+  color: rgba(155, 155, 155, 1);
+  font-size: 16px;
+  margin: 27px 0px 0px 30px;
+}
+
+.comp {
+  display: flex;
+  margin-top: 290px;
+}
+
+.companies {
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  margin-left: 580px;
+  mix-blend-mode: normal; 
+  opacity: 0.8;
+}
+
+.partofus {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  margin: 16px 0px 0px 20px;
+}
+
+.icon {
+  width: 6px;
+  height: 9px;
+  background-image: url(Icon.png);
+  margin: 21px 0px 0px 14px;
+}
+
+.navigation {
+  margin-top: 118px;
+  display: flex;
+}
+
+.rights {
+  margin: auto 0px auto 45px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+}
+
+.button1 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin: auto 0px auto 193px;
+}
+
+.button2 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin: auto 0px auto 31px;
+}
+
+.button3 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin: 4px 0px auto 33px;
+}
+
+.button4 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin: auto 0px auto 34px;
+  padding-right: 340px;
+}
+
+.social {
+  height: 17px;
+  padding-top: 2px;
+}
+
+.twt {
+  width: 17px;
+  height: 14px;
+}
+
+.fcb {
+  width: 8px;
+  height: 17px;
+  margin-left: 18px;
+}
+
+.yt {
+  width: 20px;
+  height: 14px;
+  margin-left: 20px;
+}
+
+/*  :)     */
