@@ -6,11 +6,11 @@ a {
   text-decoration: none;
 }
 
-.container {
+body {
   width: 1440px;
   height: 900px;
-  background: rgba(80, 82, 226, 1);
-  margin: 200px auto;
+  background-color: rgba(80, 82, 226, 1);
+  margin: 0 auto;
 }
 
 .headpart {
