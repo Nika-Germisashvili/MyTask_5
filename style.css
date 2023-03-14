@@ -13,19 +13,20 @@ body {
 
 .headpart {
   Height: 80px;
-  display: flex;
 }
 
 .header1 {
   font-size: 27px;
   color: rgba(255, 255, 255, 1);
   margin: 27px 0px 0px 24px;
+  float: left;
 }
 
 .menu {
   width: 24px;
   height: 24px;
   margin: 28px 0px 0px 24px;
+  float: left;
 }
 
 .box {
@@ -75,18 +76,20 @@ body {
   margin: 3px 0px 0px 3px;
 }
 
+.username {
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  margin: 29px 28px 0px 0px;
+  float: right;
+}
+
 .img1 {
   background-image: url(Image.png);
   width: 35px;
   height: 35px;
   border-radius: 20px;
-  margin: 23px 0px 0px 1580px;
-}
-
-.username {
-  color: rgba(255, 255, 255, 1);
-  font-size: 18px;
-  margin: 29px 0px 0px 10px;
+  margin: 23px 10px 0px 0px;
+  float: right;
 }
 
 .centerdiv {
@@ -109,15 +112,20 @@ body {
   opacity: 0.8;
 }
 
+.containers {
+  height: 260px;
+  width: 1140px;
+  margin: 60px auto 0px auto;
+}
+
 .container1 {
   width: 360px;
   height: 260px;
   background: rgba(255, 255, 255, 1);
-  margin: 60px 0px 0px 390px;
   border-radius: 4px;
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 12px;
+  float: left;
 }
 
 .userpic1 {
@@ -162,9 +170,8 @@ body {
   border-radius: 4px;
   display: flex;
   flex-wrap: wrap;
-  margin: -260px auto;
-  padding-bottom: 12px;
-  
+  float: left;
+  margin-left: 30px;
 }
 
 .userpic2 {
@@ -205,9 +212,7 @@ body {
   border-radius: 4px;
   display: flex;
   flex-wrap: wrap;
-  margin: 0px 391px 0px 0px;
   float: right;
-  padding-bottom: 12px;
 }
 
 .userpic3 {
@@ -243,7 +248,7 @@ body {
 
 .comp {
   display: flex;
-  margin-top: 290px;
+  margin-top: 40px;
 }
 
 .companies {
@@ -270,13 +275,13 @@ body {
 
 .navigation {
   margin-top: 200px;
-  display: flex;
 }
 
 .rights {
   margin: auto 0px auto 45px;
   color: rgba(255, 255, 255, 1);
   font-size: 14px;
+  float: left;
 }
 
 .button1 {
@@ -284,6 +289,7 @@ body {
   font-size: 14px;
   letter-spacing: 2px;
   margin: auto 0px auto 440px;
+  float: left;
 }
 
 .button2 {
@@ -291,6 +297,7 @@ body {
   font-size: 14px;
   letter-spacing: 2px;
   margin: auto 0px auto 31px;
+  float: left;
 }
 
 .button3 {
@@ -298,6 +305,7 @@ body {
   font-size: 14px;
   letter-spacing: 2px;
   margin: 4px 0px auto 33px;
+  float: left;
 }
 
 .button4 {
@@ -305,12 +313,14 @@ body {
   font-size: 14px;
   letter-spacing: 2px;
   margin: auto 0px auto 34px;
-  padding-right: 575px;
+  float: left;
 }
 
 .social {
   height: 17px;
   padding-top: 2px;
+  float: right;
+  margin-right: 60px;
 }
 
 .twt {
